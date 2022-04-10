@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>bc29_bt1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Bài 1 -->
+    <div class="frame_bt">
+      <p>Phần mềm tính lương (Bài 1)</p>
+      <p>Lương 100,000đ / ngày</p>
+      <input id="day" type="number" placeholder="Nhập số ngày làm" />
+      <button type="button" onclick="tinhluong()">Tính lương</button>
+      <p id="kq"></p>
+    </div>
+    <div class="frame_bt">
+      <p>Tính trung bình 5 số thực (Bài 2)</p>
+      <div class="sothuc">
+        <p class="mr-2">số thực 1</p>
+        <p><input class="nhapsothuc mr-4" id="a" type="number" /></p>
+        <p class="mr-2">số thực 2</p>
+        <p><input class="nhapsothuc mr-4" id="b" type="number" /></p>
+        <p class="mr-2">số thực 3</p>
+        <p><input class="nhapsothuc mr-4" id="c" type="number" /></p>
+        <p class="mr-2">số thực 4</p>
+        <p><input class="nhapsothuc mr-4" id="d" type="number" /></p>
+        <p class="mr-2">số thực 5</p>
+        <p><input class="nhapsothuc mr-4" id="e" type="number" /></p>
+      </div>
+      <button type="button" onclick="gttb()">Tính giá trị trung bình</button>
+      <p id="gt_tb"></p>
+    </div>
+    <div class="frame_bt">
+      <p>Chuyển đổi USD --> VND (Bài 3)</p>
+      <p>Nhập USD <input type="number" id="_usd" /></p>
+      <button type="button" onclick="quydoi()">Quy đổi</button>
+      <p id="quydoi"></p>
+    </div>
+    <div class="frame_bt">
+      <p>Tính chu vi và diện tích hình chữ nhật (Bài 4)</p>
+      <p>
+        Nhập chiều dài<input type="number" name="" class="canh" id="cdai" />cm
+      </p>
+      <p>
+        Nhập chiều rộng<input type="number" name="" class="canh" id="crong" />cm
+      </p>
+      <button type="button" onclick="dt()">Tính Diện tích</button>
+      <button type="button" onclick="cv()">Tính Chu vi</button>
+      <p id="cv_dt"></p>
+    </div>
+    <div class="frame_bt">
+      <p>Tính tổng 2 ký số (Bài 5)</p>
+      <p>Nhập số tự nhiên 2 chữ số <input type="number" id="n_so"></p>
+      <button type="button" onclick="tong_two()">Tính tổng 2 ký số</button>
+      <p id="kq_kyso"></p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
